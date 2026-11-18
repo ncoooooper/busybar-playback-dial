@@ -1,0 +1,19 @@
+{
+  "app": "playback-dial",
+  "frames": [
+    2,
+    2
+  ],
+  "firmware": "1.3.1",
+  "inputs": [
+    [
+      "up"
+    ],
+    [
+      "down"
+    ]
+  ],
+  "source": "Recorded source response",
+  "exit": "finished",
+  "sha256": "e29d7b44c49084763eb82a09434a5eda4412b97721893583a44fa285958fd3e9"
+}
