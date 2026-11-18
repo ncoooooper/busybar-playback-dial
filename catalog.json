@@ -1,0 +1,6 @@
+{
+  "category": "music",
+  "short_description": "Switch between elapsed and remaining time for a film or song in VLC.",
+  "description": "Switch between elapsed and remaining time for a film or song in VLC.",
+  "changelog": "First release."
+}
