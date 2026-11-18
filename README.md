@@ -2,6 +2,20 @@
 
 See how far into a film or audio file you are without opening VLC’s controls over the picture. Leave the remaining time on the desk during a screening or a listening session.
 
+## Screen transitions
+
+Turn between elapsed time and time remaining in the same recording. The time stays on the bottom line.
+
+![Playback Dial front display. Turn between elapsed time and time remaining in the same recording. The time stays on the bottom line.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Playback Dial rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Setup
 
 In desktop VLC, switch Preferences to **All**, open **Interface → Main interfaces** and enable **Web**. Under **Main interfaces → Lua**, set the Lua HTTP password. Save and restart VLC. Open a media file. Put the password in the `VLC_PASSWORD` environment variable on the companion computer. The example connects to `http://127.0.0.1:8080`. Change `url` only if VLC uses a different address or port.
@@ -36,7 +50,7 @@ Install BUSY Bar Emulator and open it. From this repository run the following co
 ~/.busy-emulator/bin/busy-emulator dev --once
 ```
 
-The recordings use example responses on emulator firmware. Each display pixel is enlarged to a 9 × 9 square.
+The recordings use example responses on emulator firmware. Each LED occupies a 16 × 16 cell with a black border.
 
 [VLC HTTP interface](https://wiki.videolan.org/VLC_HTTP_requests/).
 
