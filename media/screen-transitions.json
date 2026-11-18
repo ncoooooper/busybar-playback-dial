@@ -1,6 +1,17 @@
 {
   "app": "busybar-playback-dial",
-  "sha256": "f6f3b81c76fffa9563d32bcf74dc3ad155f676307d931d648bfd35debd8b7332",
+  "sha256": "4dbaba441bc838443b8fab4ca13897fedacb8e177d0ed79e33932f50450986cd",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.playbackdial",
+    "sha256": "4dbaba441bc838443b8fab4ca13897fedacb8e177d0ed79e33932f50450986cd",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 90.0,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
   "firmware": "1.3.1",
   "cell": 16,
   "lit": 14,
